@@ -1,3 +1,14 @@
+## Some demo services added
+Gerkin/cucumber demo for acceptance testing. 
+
+## TODO
+Remove Eureka registration server code. Make sure app points to external Eureka server
+Add optional support for Zuul
+Add support for config server
+
+The jar for this app has the discovery server included. Bad practice. 
+Changed the port to the Eureka default 8761. Run the standalone service
+
 # microservices-demo
 
 Demo application to go with my [Microservices Blog](https://spring.io/blog/2015/07/14/microservices-with-spring) on the spring.io website.

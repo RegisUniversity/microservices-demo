@@ -1,0 +1,7 @@
+	<repositories>
+		<repository>
+			<id>central</id>
+			<name>CACHE-LA-DATA-releases</name>
+			<url>http://localhost:8081/artifactory/libs-release-local</url>
+		</repository>
+	</repositories>
