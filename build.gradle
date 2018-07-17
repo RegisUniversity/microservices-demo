@@ -36,8 +36,22 @@ dependencies {
             'org.hsqldb:hsqldb:' + hsqldbVersion,
             'org.springframework.cloud:spring-cloud-starter:' + springCloudStarterVersion,
             'org.springframework.cloud:spring-cloud-starter-eureka-server:' + springCloudStarterEurekaServerVersion
+    compile 'org.seleniumhq.selenium:selenium-server:2.44.0'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.4.0'
+    compile 'org.testng:testng:6.1.1'
+    // https://mvnrepository.com/artifact/info.cukes/cucumber-testng
+    compile group: 'info.cukes', name: 'cucumber-testng', version: '1.2.5'
+    // https://mvnrepository.com/artifact/info.cukes/cucumber-java
+    compile group: 'info.cukes', name: 'cucumber-java', version: '1.2.5'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '2.23.0'
+    compile group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '2.2.4'
 
-    testCompile 'junit:junit:4.+'
+    // https://mvnrepository.com/artifact/junit/junit
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+
+//    testCompile 'junit:junit:3.8.2'
 }
 
 springBoot {
